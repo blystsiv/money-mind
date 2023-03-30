@@ -7,8 +7,6 @@ import mongoose from 'mongoose';
 import morgan from "morgan";
 import kpiRoutes from "./routes/kpi.js";
 
-const PORT = process.env.PORT || 7777
-
 /* CONFIGURATIONS */
 dotenv.config();
 const app = express();
@@ -24,6 +22,8 @@ app.use(cors());
 app.use('/kpi', kpiRoutes)
 
 /* MONGOOSE SETUP */
+const PORT = process.env.PORT || 7777
+
 mongoose
 	.connect(process.env.MONGO_URL, {
 		useNewUrlParser: true,
