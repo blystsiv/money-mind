@@ -1,27 +1,15 @@
 # MoneyMind 🤑
 
-The project was created with:
+![app img](assets/app.png)
 
-- Typescript, React, Node, MUI
+## Tech Stack
 
-## Run Locally
+**Client:** React, Redux Toolkit, MUI
 
-Fork the repo
+**Server:** Node, Express, MongoDB
 
-Clone the repo
+## Contact Me
 
-```bash
-  git clone https://github.com/blystsiv/money-mind
-```
+Connect with me on [LinkedIn](https://www.linkedin.com/in/blystsiv/).
 
-Go to the project directory
-
-```bash
-  cd money-mind
-```
-
-Install dependencies
-
-```bash
-  npm i
-```
+Mail me at ostap.blystsiv@gmail.com to get in touch.
