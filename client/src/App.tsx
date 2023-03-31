@@ -1,9 +1,10 @@
 import Dashboard from '@/scenes/dashboard';
 import Navbar from '@/scenes/navbar';
-import { Box, createTheme, CssBaseline, ThemeProvider } from '@mui/material';
+import Predictions from '@/scenes/predictions';
+import { Box, CssBaseline, ThemeProvider } from '@mui/material';
+import { createTheme } from '@mui/material/styles';
 import { useMemo } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Predictions from './scenes/predictions';
 import { themeSettings } from './theme';
 
 function App() {

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 type Props = {};
 
-export default function Navbar(props: Props) {
+const Navbar = (props: Props) => {
   const { palette } = useTheme();
   const [selected, setSelected] = useState('dashboard');
 
@@ -16,7 +16,7 @@ export default function Navbar(props: Props) {
       <FlexBetween gap='0.75rem'>
         <PixIcon sx={{ fontSize: '28px' }} />
         <Typography variant='h4' fontSize='16px'>
-          MoneyMind
+          Finanseer
         </Typography>
       </FlexBetween>
 
@@ -49,4 +49,6 @@ export default function Navbar(props: Props) {
       </FlexBetween>
     </FlexBetween>
   );
-}
+};
+
+export default Navbar;
