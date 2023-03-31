@@ -22,7 +22,7 @@ const Row3 = () => {
         return [
           {
             name: key,
-            value,
+            value: value,
           },
           {
             name: `${key} of Total`,
